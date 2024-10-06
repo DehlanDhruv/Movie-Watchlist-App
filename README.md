@@ -1,12 +1,5 @@
 <<<<<<< HEAD
 
-
-# Features
--Login / Sign Up
-    -Directs to Browse Page
--Browse (After Authentication)
-    - Header
-    - Movie
 =======
 # Movie-Watchlist-App
 Technology Stack: Developed using React.js, Firebase for user authentication, and Redux for state management.
