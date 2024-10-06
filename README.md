@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 # Movie-Watchlist-App
 Technology Stack: Developed using React.js, Firebase for user authentication, and Redux for state management.
 
