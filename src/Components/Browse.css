@@ -1,0 +1,12 @@
+.browseContainer{
+    display: flex;
+    width:100% ;
+}
+
+@media (max-width: 768px){
+    .browseContainer{
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+    }
+}

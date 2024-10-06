@@ -1,0 +1,295 @@
+.movieCardsContainer{
+    width:100%;
+    margin-left:320px ;
+    padding:3% 5%;
+    width: 80%;
+    position: absolute;
+    right: 0px;
+}
+.titleContainer {
+    border: 1px solid #FF0000;
+    padding: 20px; 
+    border-radius: 8px; 
+    margin: 4% 0%; 
+    font-family: Arial, sans-serif; 
+}
+
+.title {
+    font-size: 2vw;
+    color: black; 
+    margin-bottom: 10px; 
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.text {
+    font-size: 1.2vw; 
+    color: #333; 
+    line-height: 1.5; 
+    font-weight: 500;
+}
+
+.icon {
+    color: #FF0000; 
+    font-weight: bold;
+}
+
+.searchContainer{
+    display: flex;
+    width:100% ;
+    gap: 5px;
+}
+
+.searchContainer> input {
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    padding: 10px; 
+    width: 90%; 
+    font-size: 1.1vw; 
+    
+    }
+
+    .search-button {
+        background-color: #FF0000;
+        border-radius: 4px;
+        padding: 5px 10px; 
+        font-size: 1.1vw; 
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        
+    }
+    .search-button >p {
+      color: white;
+    }
+    
+    .search-button:hover {
+        background-color: #e60000; 
+    }
+
+    .movies-list {
+        display: flex;
+        flex-wrap: wrap;  
+        gap: 20px;        
+        justify-content: space-between; 
+        padding: 4% 0%;
+      }
+
+    .movie-card {
+        width: 10rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        background-color: white;
+        padding: auto;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        
+      }
+      
+      .image-container {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        background-color: #f3f3f3;
+      }
+      
+      .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+        
+      }
+      
+      .details {
+        padding: auto;
+        text-align: center;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding:4%;
+        gap: 0px;
+        justify-content: space-evenly;
+      }
+      .details >p {
+        margin: 0px;
+        padding: 0px;
+        color : black;
+        font-weight: 500;
+        font-size: 0.8rem;
+      }
+      
+      .rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        align-self: flex-end;
+      }
+      
+      .movieYear {
+        color:rgb(188, 179, 179) !important;
+        font-size: 0.9em;
+      }
+      
+      p strong {
+        font-weight: 600;
+      }
+
+      .bookmarkSVG{
+        display: inline;
+         height: 1.5vw;
+          width: 1.5vw;
+      }
+
+      @media (max-width: 768px)  {
+
+        .bookmarkSVG{
+          display: inline;
+           height: 18px;
+            width: 18px;
+        }
+
+        .movieCardsContainer{
+          width:100%;
+          margin-left:0% ;
+          padding:3% 2%;
+          width: 60%;
+          position: absolute;
+          right: 0px;
+      }
+      .titleContainer {
+          
+          padding: 4%; 
+          margin: 4% 0%; 
+          
+      }
+      
+      .title {
+          font-size: 24px; 
+          color: black; 
+          
+          font-weight: 600;
+          margin-bottom: 2%;
+      }
+      
+      .text {
+          font-size: 14px; 
+          color: #333; 
+          line-height: 1.5; 
+          font-weight: 500;
+      }
+      
+      .searchContainer{
+          display: flex;
+          width:100% ;
+          gap: 5px;
+      }
+      
+      .searchContainer> input {
+          border: 1px solid #ccc;
+          border-radius: 4px; 
+          padding: 2px; 
+          width: 70%; 
+          font-size: 12px;
+          
+          }
+      
+          .search-button {
+              background-color: #FF0000;
+              border-radius: 4px; 
+              padding: 5px 6px; 
+              font-size: 12px; 
+              cursor: pointer;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 30%;
+              
+          }
+          .search-button >p {
+            color: white;
+          }
+          
+          .search-button:hover {
+              background-color: #e60000; 
+          }
+      
+          .movies-list {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              flex-wrap: wrap;  
+              gap: 20px;        
+              justify-content: space-between; 
+              padding: 4% 0%;
+            }
+      
+          .movie-card {
+              width: 75%;
+              border-radius: 10px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              background-color: white;
+              padding: auto;
+              height: 17rem;
+              display: flex;
+              flex-direction: column;
+              
+            }
+            
+            .image-container {
+              position: relative;
+              width: 100%;
+              height: 60%;
+              background-color: #f3f3f3;
+            }
+            
+            .image-container img {
+              width: 100%;
+              height: 100%;
+              object-fit:fill;
+              
+            }
+            
+            .details {
+              padding: auto;
+              text-align: center;
+              align-items: flex-start;
+              display: flex;
+              flex-direction: column;
+              text-align: left;
+              padding:4%;
+              gap: 0px;
+              justify-content: space-evenly;
+            }
+            .details >p {
+              margin: 0px;
+              padding: 0px;
+              color : black;
+              font-weight: 500;
+              font-size: 0.8rem;
+            }
+            
+            .rating {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 5px;
+              align-self: flex-end;
+            }
+            
+            .movieYear {
+              color:rgb(188, 179, 179) !important;
+              font-size: 0.9em;
+            }
+            
+            p strong {
+              font-weight: 600;
+            }
+        
+      }

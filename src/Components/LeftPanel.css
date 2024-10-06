@@ -1,0 +1,208 @@
+
+.leftPanelHeading {
+    width:40%;
+    font-size: 2.5vw ;
+    font-weight: bold;
+    color: #FF0000; 
+    text-align: center; 
+}
+
+.playlistContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    height: 100vh;
+    position: fixed;
+    padding: 10px;
+    width: fit-content;
+    z-index: 10;
+    border-right: 2px solid gray;
+    box-shadow: 5px 5px 10px rgba(188, 186, 186, 0.5);
+    width: 20%;
+}
+.playlistContainer h4{
+    font-size: 1.2vw;
+    border-top: 2px solid rgb(220, 213, 213);
+    padding-top: 10px;
+}
+.home-button {
+    background-color: #FF0000; 
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 5px 10px; /* Padding inside the button */
+    font-size: 1.2vw; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex;
+    width: 100%;
+    gap:8%;
+    align-items: center;
+    position: relative;
+}
+.home-button > p{
+    color: white;
+}
+.watchlist-button {
+    color: white; 
+    border-radius: 4px; 
+    padding: 5px 10px; 
+    font-size: 1.1vw; 
+    cursor: pointer; 
+    display: flex;
+    width: 100%;
+    gap:8%;
+    align-items: center;
+    position: relative;
+    border: 2px solid rgb(191, 186, 186);
+}
+.watchlist-button > p{
+    color: black;
+}
+
+
+
+.home-button:hover {
+    background-color: #e60000; 
+}
+
+.home-button span{
+    background-color: black;
+    border-radius: 50%;
+    height: 25px;
+    width:25px;
+    position: absolute;
+    right: -2%;
+    top:-20%
+}
+
+.userContainer{
+    display: flex;
+    width: 90%;
+    border: 2px solid rgb(194, 190, 190);
+    border-radius: 4px;
+    position: absolute;
+    bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+}
+
+.userContainer > p{
+    font-size: 1.2vw;
+}
+
+.homeSVG , .videoSVG{
+    height: 2vw;
+    width: 2vw;
+}
+
+
+.userSVG , .logoutSVG{
+    height: 1.5vw;
+    width:1.5vw;
+}
+
+
+@media (max-width: 768px) {
+
+    .playlistContainer{
+        display: flex;
+        gap: 4%;
+        width: 40%;
+        height: 100vh;
+       position: fixed;
+        padding: 8px 8px;        
+    }
+    .leftPanelHeading {
+        width:100%;
+        font-size: 22px; 
+        font-weight: bold; 
+        align-items: flex-start;
+        padding: 0px;
+    }
+    .playlistContainer h4{
+        font-size: 16px;
+        border-top: 2px solid rgb(220, 213, 213);
+        padding-top: 10px;
+    }
+    .home-button {
+       
+        padding: 5px; 
+        font-size: 14px;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        gap:8%;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10%;
+    }
+    .home-button > p{
+        color: white;
+        margin-left: 10%;
+    }
+    .watchlist-button {
+        padding: 5px; 
+        font-size: 14px; 
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        gap:3%;
+        align-items: center;
+        position: relative;
+    }
+    .watchlist-button > p{
+        color: black;
+    }
+    
+    .home-button span{
+        background-color: black;
+        border-radius: 50%;
+        height: 25px;
+        width:25px;
+        position: absolute;
+        right: -2%;
+        top:-20%
+    }
+    
+    .userContainer{
+        display: flex;
+        width: 90%;
+        border: 2px solid rgb(194, 190, 190);
+        border-radius: 4px;
+        position: absolute;
+        bottom: 10%;
+        padding: 0px;
+        margin: 0px;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0px;
+        
+
+        
+    }
+    
+    .userContainer > p{
+        font-size:14px;
+    }
+    
+    .homeSVG , .videoSVG{
+        height: 18px;
+        width: 18px;
+    }
+    
+    .userSVG {
+        height: 18px;
+        width:18px;
+    }
+
+    .logoutSVG{
+        height: 15px;
+        width: 15px;
+    }
+   
+
+
+
+
+  }

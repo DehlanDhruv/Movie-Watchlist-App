@@ -1,0 +1,90 @@
+
+
+.playlist-name-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.playlist-name-display > span{
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    font-weight: 800 ;
+    flex: 4;
+}
+.playlist-name-display > p{
+    font-size: 20px;
+    font-weight: 500;
+    
+
+}
+
+.playlist-name-input{
+    width:300px;
+}
+
+.movies-list-watchlist {
+    display: flex;
+    flex-wrap: wrap;      
+    justify-content: flex-start; 
+    gap: 4%;
+    padding: 4% 0%;
+  }
+
+  .watchlist-header > input {
+    font-size: 24px;
+  }
+
+  .editSVG{
+    height: 2vw;
+    width: 2vw;
+  }
+
+  @media (max-width :768px) {
+
+    .editSVG{
+        height: 18px;
+        width:18px;
+      }
+
+    .playlist-name-display{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .playlist-name-display > span{
+        font-size: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: 800 ;
+        flex: 4;
+        width: 100%;
+    }
+    .playlist-name-display > p{
+        font-size: 18px;
+        font-weight: 500;
+        
+    
+    }
+    
+    .playlist-name-input{
+        width:300px;
+    }
+    
+    .movies-list-watchlist {
+        display: flex;
+        flex-wrap: wrap;      
+        justify-content: center; 
+        gap: 4%;
+        padding: 4% 0%;
+      }
+    
+      .watchlist-header > input {
+        font-size: 24px;
+      }
+    
+  }
