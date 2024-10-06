@@ -23,6 +23,8 @@ const useMoviesResults = () => {
       const response = await fetch(`https://www.omdbapi.com/?s=${encodedMovieName}&apikey=${process.env.REACT_APP_OMDB_KEY}`);
       const data = await response.json();
 
+      console.log(encodedMovieName)
+
       if (data.Search) {
         const detailedMovies = await Promise.all(
           data.Search.map((movie) => getMovieDetails(movie.imdbID))

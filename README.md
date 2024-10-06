@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-# Installation
-    - Create React App
-    - Configured TailwindCSS
-    - Routing
-    - Login Form
-    - Form Validation
-    - Firebase Setup
-    - Implemented Sign User API (auth)
-    - Created Redux Store with userSlice
-
-# Features
--Login / Sign Up
-    -Directs to Browse Page
--Browse (After Authentication)
-    - Header
-    - Movie
-=======
 # Movie-Watchlist-App
 Technology Stack: Developed using React.js, Firebase for user authentication, and Redux for state management.
 
@@ -32,4 +14,3 @@ Users can add movies to their personal watchlist.
 Users can remove movies from their watchlist.
 Users can view their personal watchlist.
 This app provides a simple and interactive way for multiple users to manage their movie preferences.
->>>>>>> cddc093c1de7bd33117066bacdd122b7c087709c
