@@ -17,3 +17,6 @@ Users can add movies to their personal watchlist.
 Users can remove movies from their watchlist.
 Users can view their personal watchlist.
 This app provides a simple and interactive way for multiple users to manage their movie preferences.
+
+
+To simply access the app, you will have to sign up via any dummy email, and you will have to create a password ( ex: code@1234 ).
